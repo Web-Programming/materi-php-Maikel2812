@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProdiController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -11,3 +12,4 @@ Route::get('/', function () {
 Route::get('/berita/', function ($id) {
     return view('berita',['id'=>$id,'judul'=>$judul]);
 });
+Route::get(uri:'/prodi/index',action: [ProdiController::class,'index']);
