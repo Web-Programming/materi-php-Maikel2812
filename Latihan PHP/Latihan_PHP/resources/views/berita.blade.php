@@ -1,5 +1,5 @@
 <div>
     <h1>Berita</h1>
-    <h2>ID:{{ $id }}</h2>
-    <h2>ID:{{ $judul }}</h2>
+    <b2>ID: {{ $id }}</b2>
+    <b2>Judul: {{ $judul }}</b2>
 </div>
